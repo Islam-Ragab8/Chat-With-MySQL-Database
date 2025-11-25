@@ -1,8 +1,8 @@
 
-from langchain.chat_models import ChatGroq
+from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
-from langchain.runnables import RunnablePassthrough
-from langchain.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
 from modules.sql_chain import  get_sql_chain
 from modules.database import create_mysql
 from langchain_community.utilities import SQLDatabase 
