@@ -7,13 +7,19 @@ You can ask any question in natural language, and the AI will translate it into 
 ## 📁 Project Structure
 ```bash
 CHAT-WITH-MYSQL-DATABASE/
-│── assets/
-│ └── schema.py # Core logic (SQL chain + response chain)
-│── Data/
-│── app.py # Streamlit UI
-│── .env # Environment variables (GROQ_API_KEY, DB credentials)
-│── README.md
-│── venv/
+├── Data/
+│   └── Chinook_MySQL.sql
+├── modules/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── database.py
+│   ├── response_chain.py
+│   └── sql_chain.py
+├── venv/
+├── .env
+├── .gitignore
+├── app.py
+└── README.md
 ```
 
 
